@@ -1,0 +1,19 @@
+{
+  "title": "Activity Diagram: Online Shopping Store",
+  "link": "ActivitySS",
+  "diagram1": "An activity diagram is a type of flowchart that represents the flow of activities or actions within a system, process, or algorithm. It's part of the Unified Modeling Language (UML) and is commonly used in software engineering to visualize the steps and transitions involved in completing a task or achieving a goal.",
+  "diagram2": "Activity diagrams are useful for visualizing complex processes, understanding the flow of activities, identifying decision points, and optimizing workflows. They are often used during the analysis and design phases of software development to model the behavior of a system or process before implementation.",
+  "content1": "An online shopping store is a virtual platform where users can browse, select, and purchase goods or services over the internet. These stores provide a convenient way for customers to shop from the comfort of their homes, offering a wide range of products from various categories such as electronics, clothing, groceries, and more.",
+  "content2": "Creating an activity diagram involves several steps as follows:",
+  "h1": "1. Identify Activities:",
+  "li1": "Begin by identifying the activities or actions that are part of the process you want to model. These activities should represent the individual steps involved in achieving the desired outcome.",
+  "h2": "2. Define Start and End Points:",
+  "li2": "Determine the starting point and ending point of the activity diagram. The start point indicates where the process begins, while the end point indicates where it concludes. ",
+  "h3": "3. Draw Activity Nodes:",
+  "li3": "For each identified activity, create a corresponding activity node in the diagram. Activity nodes are rectangles with rounded corners and represent the tasks or actions to be performed. Label each activity node with a concise description of the task it represents.",
+  "h4": "4. Connect Activities with Control Flow:",
+  "li4": "Use arrows to connect the activity nodes in the order in which they occur. These arrows represent the flow of control between activities, indicating the sequence in which tasks are performed.",
+  "h5": "5. Add Decision Points and Merge Points:",
+  "li5": " Identify decision points within the process where the flow may branch based on certain conditions. Use diamond-shaped decision nodes to represent these points, with outgoing arrows corresponding to each possible outcome. Similarly, use merge nodes to indicate points where multiple flows converge back into a single flow.",
+  "tag": "/tutorials/ActivitySS.png"
+}

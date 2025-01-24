@@ -1,0 +1,19 @@
+{
+  "title": "Component Diagram: Simple Software System",
+  "link": "ComponentSSS",
+  "diagram1": "A component diagram is a type of structural diagram in the Unified Modeling Language (UML) that illustrates the components or building blocks of a system and the relationships between them. It provides a high-level view of the architecture of a system, showing how the system is organized into modular components and how these components interact with each other.",
+  "diagram2": "Component diagrams play a vital role in software engineering by promoting modularity, abstraction, and flexibility in system design. They help teams build robust, maintainable, and scalable systems that meet the evolving needs of users and stakeholders.",
+  "content1": "Let's consider a simple software system for managing a library's book inventory. This software allows librarians to add new books, update existing book information, and track book availability.",
+  "content2": "Creating a component diagram for a simple software system involves several steps to illustrate its modular structure effectively. Below is a step-by-step guide:",
+  "h1": "1. Identify System Components:",
+  "li1": "Begin by identifying the main components of the software system based on its architecture and design. Common components include the UI Layer, Business Logic Layer, Data Access Layer, and any other relevant components such as external services or utilities.",
+  "h2": "2. Define Component Responsibilities:",
+  "li2": "Define the responsibilities and functionalities of each component. For example, UI Layer is responsible for presenting User Interface to user.",
+  "h3": "3. Identify Relationships Between Components:",
+  "li3": "Determine the relationships and dependencies between components. For example, The Business Logic Layer interacts with the Data Access Layer to retrieve or store data in the database.",
+  "h4": "4. Draw Component Diagram:",
+  "li4": "Connect the components with lines to indicate relationships and dependencies between them, with each component represented as a labeled rectangle. For example, Draw arrows from the UI Layer component to the Business Logic Layer component to represent the flow of user input and data.",
+  "h5": "5. Specify Interfaces:",
+  "li5": "Optionally, specify the interfaces or APIs exposed by each component to facilitate communication and interaction between components.",
+  "tag": "/tutorials/ComponentSSS.png"
+}

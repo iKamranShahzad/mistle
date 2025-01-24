@@ -1,0 +1,19 @@
+{
+  "title": "Use Case Diagram: Bank Management System",
+  "link": "UseCaseBMS",
+  "diagram1": "A use case diagram is a graphical representation of the interactions between users (actors) and a system, illustrating the various tasks or actions users can perform to achieve specific goals. It provides a visual overview of the system's functionality from the perspective of its users.",
+  "diagram2": "The use of use case diagrams offers several benefits in system development. These diagrams aid in visualizing the scope and boundaries of the system, enabling stakeholders to understand its functionality at a glance.",
+  "content1": "A bank management system is a software application that facilitates the efficient management of banking operations and services. It encompasses various modules and functionalities to streamline the day-to-day operations of a bank, including customer account management, transaction processing, loan management, and reporting.",
+  "content2": "Creating a use case diagram for a BMS involves identifying the interactions between different actors (users) and the system to achieve specific goals. Follow the guide below:",
+  "h1": "1. Identify Actors:",
+  "li1": "Identify the different types of users (actors) who interact with the BMS. This may include bank staff, customers, administrators, and external systems (e.g., regulatory authorities).",
+  "h2": "2. Identify Use Cases:",
+  "li2": "Determine the various actions or tasks that each actor can perform within the BMS. These can include activities such as account management, transaction processing, loan management, and system administration.",
+  "h3": "3. Define Relationships:",
+  "li3": "Establish relationships between actors and use cases to show which actors are involved in each action or task. For example, customers may be involved in activities such as account registration, balance inquiries, fund transfers, and loan applications.",
+  "h4": "4. Organize Use Cases:",
+  "li4": "Organize the identified use cases into logical groups or categories based on their functionality. For instance, group related use cases such as account management and transaction processing under broader categories.",
+  "h5": "5. Create the Diagram:",
+  "li5": "Create the use case diagram by visually representing the actors, use cases, and relationships. Use stick figures to represent actors and ovals to represent use cases, connecting them with lines to show relationships.",
+  "tag": "/tutorials/UseCaseBMS.png"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Sequence Diagram: Ticket Booking System",
+  "link": "SequenceTBS",
+  "diagram1": "A sequence diagram is a type of interaction diagram in UML (Unified Modeling Language) that illustrates how objects interact in a particular scenario of a system. It represents the sequence of messages exchanged between objects or components within the system over time.",
+  "diagram2": "Sequence diagrams are widely used in software development to visualize and analyze the behavior of systems, identify communication patterns between objects, and ensure the proper sequencing of operations during system execution. They provide valuable insights into the dynamic aspects of software systems and help stakeholders understand how different components interact to fulfill system requirements.",
+  "content1": "A ticket booking system is a software application or platform that facilitates the process of reserving tickets or seats for various events, services, or activities. It is commonly used in industries such as transportation, entertainment, hospitality, and sports to enable customers to book tickets conveniently and efficiently.",
+  "content2": "Creating a sequence diagram for a ticket booking system involves breaking down the interaction between a user and the system into a series of steps or messages exchanged between objects. Follow the steps below:",
+  "h1": "1. Identify Actors and Objects:",
+  "li1": "Begin by identifying the actors involved in the interaction, such as the user and the ticket booking system. Each actor corresponds to an object or lifeline in the sequence diagram. For example, the user and the booking system are represented as lifelines.",
+  "h2": "2. Define Messages and Actions:",
+  "li2": "Define the messages exchanged between the user and the booking system to perform the ticket booking process. Messages represent actions or requests made by one object to another.",
+  "h3": "3. Sequence of Steps: ",
+  "li3": "Determine the sequence of steps involved in the ticket booking process. Start with the user initiating the interaction by searching for tickets, followed by selecting seats, providing payment information, and confirming the booking. Each step corresponds to a message exchanged between the user and the system.",
+  "h4": "4. Draw Lifelines and Messages:",
+  "li4": "Draw lifelines for the user and the booking system vertically on the diagram. Place the lifelines in the order of their involvement in the sequence. Then, draw arrows between the lifelines to represent the messages exchanged between them. Label each arrow with the name of the message being sent.",
+  "h5": "5. Include Optional Paths and Decisions:",
+  "li5": "Consider including optional paths and decision points in the sequence diagram to account for alternative scenarios or user choices during the booking process. For example, if the user decides to change seats or cancel the booking, depict these actions as branches in the sequence diagram with corresponding messages and outcomes.",
+  "tag": "/tutorials/SequenceTBS.png"
+}

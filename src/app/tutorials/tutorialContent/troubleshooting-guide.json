@@ -1,0 +1,19 @@
+{
+  "title": "Flowchart Diagram: Troubleshooting Guide",
+  "link": "FlowChartTSG",
+  "diagram1": "A flowchart is a visual representation of a process or workflow, depicting the steps involved and the sequence in which they occur. It uses standardized symbols and shapes to represent different types of actions, decisions, inputs, outputs, and flow of control within the process. Flowcharts are widely used in various fields, including software development, business process management, project planning, and problem-solving, to communicate complex processes in a clear and structured manner.",
+  "diagram2": "Flowcharts can be simple or complex, depending on the complexity of the process being depicted. They serve as valuable tools for visualizing processes, identifying bottlenecks or inefficiencies, documenting procedures, designing algorithms, and communicating ideas or plans effectively across teams and stakeholders.",
+  "content1": "A troubleshooting guide is a structured document or resource designed to help users or technicians diagnose and resolve issues or problems with a product, system, or service. It provides step-by-step instructions, tips, and techniques for identifying the root cause of a problem and implementing solutions to resolve it effectively.",
+  "content2": "Creating a flowchart for a troubleshooting guide involves breaking down the diagnostic and resolution process into sequential steps, represented by standardized symbols and shapes:",
+  "h1": "1. Define the Start Point:",
+  "li1": "Begin the flowchart with an oval or rounded rectangle shape representing the start point of the troubleshooting process. Label it with a descriptive title such as Start or Begin Troubleshooting.",
+  "h2": "2. Identify the Issue: ",
+  "li2": "Use a decision diamond shape to represent the initial step of identifying the issue or problem encountered by the user. Branch out from this decision point based on the different categories or types of issues users may experience.",
+  "h3": "3. Break Down into Categories:",
+  "li3": "Depending on the complexity of the troubleshooting process, break down the flowchart into categories or topics corresponding to different types of issues. Use rectangles with rounded corners to represent each category or topic.",
+  "h4": "4. Provide Step-by-Step Instructions:",
+  "li4": "For each category or topic, outline the step-by-step instructions for diagnosing and resolving the issue. Use rectangular shapes to represent individual steps in the process. Include concise instructions and actions to be taken at each step.",
+  "h5": "5. End with Resolution or Contact Information:",
+  "li5": "Conclude the flowchart with an oval or rounded rectangle shape representing the resolution point. Provide guidance on confirming the successful resolution of the issue or, if necessary, include contact information for further assistance or escalation.",
+  "tag": "/tutorials/FlowChartTSG.png"
+}

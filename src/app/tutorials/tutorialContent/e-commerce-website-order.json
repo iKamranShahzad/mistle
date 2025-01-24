@@ -1,0 +1,17 @@
+{
+  "title": "State Machine Diagram: E-commerce Website Order",
+  "link": "StateMachineECO",
+  "diagram1": "A state machine diagram, also known as a state diagram or finite state machine (FSM) diagram, is a behavioral diagram in Unified Modeling Language (UML) used to model the behavior of a system or entity with a finite number of states. It illustrates the transitions between states in response to events or stimuli, capturing the dynamic behavior of the system over time.",
+  "diagram2": "State machine diagrams are useful for modeling the behavior of systems with complex, dynamic behavior, such as user interfaces, control systems, communication protocols, and business processes. They provide a visual representation of the state transitions and event-driven behavior of the system, helping to analyze, design, and implement systems with clear and well-defined behavior.",
+  "content1": "An e-commerce website is an online platform that enables businesses to sell products or services to customers over the internet. It provides a virtual marketplace where users can browse, select, and purchase items from the comfort of their homes.",
+  "content2": "Placing an order on an e-commerce website typically involves several steps, from browsing products to completing the checkout process. A detailed explanation of how an order is placed is as follows:",
+  "h1": "1. Identify States:",
+  "li1": "Begin by identifying the key states that an order can be in throughout the order placement process. Common states include; Cart, Checkout, Payment",
+  "h2": "2. Define Transitions: ",
+  "li2": "Determine the conditions or events that trigger transitions between states. For example, transitions from Card to Checkout may be triggered when the user clicks the checkout button.",
+  "h3": "3. Draw State Diagram:",
+  "li3": "Draw a state diagram using UML notation, with each state represented as a rounded rectangle and transitions represented as arrows between states. Label each state with its name (e.g., Cart, Checkout) and each transition with the condition or event that triggers it (e.g., Proceed to Checkout, Proceed to Payment).",
+  "h4": "4. Specify Actions:",
+  "li4": "Optionally, specify any actions or behaviors associated with each state or transition. For example, Action associated with the transition from Shipping to Payment could include calculating shipping costs and updating the order total.",
+  "tag": "/tutorials/StateMachineECO.png"
+}

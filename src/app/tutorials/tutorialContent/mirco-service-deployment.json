@@ -1,0 +1,19 @@
+{
+  "title": "Deployment Diagram: Micro Service Deployment",
+  "link": "DeploymentMS",
+  "diagram1": "A deployment diagram is a type of UML diagram that illustrates the physical deployment of software components and artifacts on hardware infrastructure. It shows how software components are deployed onto hardware nodes, such as servers, computers, or devices, and how they interact with each other in a distributed or networked environment.",
+  "diagram2": "Deployment diagrams play a vital role in software engineering by providing a visual representation of the deployment architecture, facilitating communication and collaboration, supporting infrastructure planning, and enabling risk mitigation and scalability planning.",
+  "content1": "Deploying microservices involves the process of deploying individual microservices, each representing a small, independent, and loosely coupled component of a larger software system. Microservices architecture promotes modularity, scalability, and agility by breaking down complex applications into smaller, manageable services that can be developed, deployed, and scaled independently. ",
+  "content2": "Creating a deployment diagram for microservices involves illustrating how individual microservices are deployed across the infrastructure. Below are the steps to create such a diagram:",
+  "h1": "1. List down Microservices:",
+  "li1": "Begin by identifying the individual microservices that make up the application. Each microservice should represent a distinct functional component of the system, with well-defined responsibilities and boundaries. Common microservices may include user authentication, order processing, inventory management, payment processing, etc.",
+  "h2": "2. Define Deployment Infrastructure:",
+  "li2": "Determine the infrastructure where the microservices will be deployed. This may include physical servers, virtual machines, containers, or cloud-based services. Consider factors such as scalability, availability, and performance requirements when selecting the deployment environment.",
+  "h3": "3. Map Microservices to Deployment Infrastructure:",
+  "li3": "Assign each microservice to its corresponding deployment environment. For example, some microservices may be deployed on dedicated servers or virtual machines, while others may be deployed in containers managed by container orchestration platforms like Kubernetes.",
+  "h4": "4. Draw Deployment Relationships:",
+  "li4": "Use arrows or lines to represent the deployment relationships between microservices and deployment infrastructure. For each microservice, draw a line to the deployment environment where it is deployed to indicate its physical location.",
+  "h5": "5. Specify Communication Paths:",
+  "li5": "If microservices communicate with each other over a network, specify the communication paths between them. Use annotations or labels to describe the communication protocols, ports, and endpoints used for communication between microservices.",
+  "tag": "/tutorials/DeploymentMS.png"
+}

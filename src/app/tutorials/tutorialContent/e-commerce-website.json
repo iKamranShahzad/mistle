@@ -1,0 +1,19 @@
+{
+  "title": "Use Case Diagram: E-commerce Website",
+  "link": "UseCaseEC",
+  "diagram1": "A use case diagram is a graphical representation of the interactions between users (actors) and a system, illustrating the various tasks or actions users can perform to achieve specific goals. It provides a visual overview of the system's functionality from the perspective of its users.",
+  "diagram2": "The use of use case diagrams offers several benefits in system development. These diagrams aid in visualizing the scope and boundaries of the system, enabling stakeholders to understand its functionality at a glance.",
+  "content1": "An e-commerce website is an online platform that enables businesses to sell products or services to customers over the internet. These websites typically feature a catalog of products or services, shopping cart functionality for users to add items they wish to purchase, and secure payment processing systems to facilitate transactions. ",
+  "content2": "To model a use case diagram for an e-commerce website, we need to identify the various interactions between users (actors) and the system to achieve specific goals. Follow the steps below:",
+  "h1": "1. Identify Actors:",
+  "li1": "Identify the different types of users (actors) who interact with the e-commerce website. This may include customers, administrators, and guests.",
+  "h2": "2. Identify Use Cases:",
+  "li2": "Determine the various actions or tasks that each actor can perform on the website. These can include browsing products, searching for items, adding products to the shopping cart, managing accounts, and processing orders.",
+  "h3": "3. Define Relationships:",
+  "li3": "Establish relationships between actors and use cases to show which actors are involved in each action or task. For example, customers may be involved in actions such as browsing products, adding items to the shopping cart, and processing orders.",
+  "h4": "4. Organize Use Cases:",
+  "li4": "Organize the identified use cases into logical groups or categories. For example, group related use cases such as managing accounts and managing orders under a broader category.",
+  "h5": "5. Create the Diagram:",
+  "li5": "Create the use case diagram by visually representing the actors, use cases, and relationships. Use stick figures to represent actors and ovals to represent use cases, connecting them with lines to show relationships.",
+  "tag": "/tutorials/UseCaseEC.png"
+}

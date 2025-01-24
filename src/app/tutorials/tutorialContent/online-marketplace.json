@@ -1,0 +1,19 @@
+{
+  "title": "Entity-Relationship Diagram: Online Marketplace",
+  "link": "ERDOMP",
+  "diagram1": "An Entity-Relationship Diagram (ERD) is a visual representation of the data model that describes the relationships between entities in a system. It illustrates the structure of a database, showing how data entities (such as tables in a relational database) relate to each other.",
+  "diagram2": "There are several types of ERD notations, including Chen notation, Crow's Foot notation, and UML notation. Each notation has its own symbols and conventions for representing entities, attributes, and relationships.",
+  "content1": "An online marketplace is a digital platform that facilitates the buying and selling of goods or services between multiple buyers and sellers. It acts as an intermediary, connecting sellers who offer products or services with potential buyers who are seeking those offerings.",
+  "content2": "Follow the steps below to design Entity-Relationship Diagram of an Online Marketplace:",
+  "h1": "1. Identify Entities:",
+  "li1": "Begin by identifying the main entities involved in the online marketplace. Common entities include User, Product, Order, Payment, and Review.",
+  "h2": "2. Define Attributes:",
+  "li2": "For each entity, define the attributes that describe its properties or characteristics. For example, User can have UserID, Name & E-mail etc.",
+  "h3": "3. Identify Relationships:",
+  "li3": "Determine the relationships between entities. Relationships represent how entities are connected or associated with each other. For example, A User can place multiple Orders (One-to-Many relationship).",
+  "h4": "4. Determine Cardinality and Participation:",
+  "li4": " Define the cardinality (how many instances of one entity are related to another entity) and participation (whether the relationship is mandatory or optional for each entity) for each relationship. For example, Each Order must have at least one Product (Mandatory participation).",
+  "h5": "5. Draw the ERD:",
+  "li5": "Create the ERD accordingly by representing entities as rectangles, attributes as ovals within the rectangles, and relationships as lines connecting the entities. Include cardinality and participation constraints on each end of the relationship lines.",
+  "tag": "/tutorials/ERDOMP.png"
+}

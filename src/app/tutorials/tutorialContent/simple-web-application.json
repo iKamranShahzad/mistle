@@ -1,0 +1,17 @@
+{
+  "title": "Component Diagram: Simple Web Application",
+  "link": "ComponentSWA",
+  "diagram1": "A component diagram is a type of structural diagram in the Unified Modeling Language (UML) that illustrates the components or building blocks of a system and the relationships between them. It provides a high-level view of the architecture of a system, showing how the system is organized into modular components and how these components interact with each other.",
+  "diagram2": "Component diagrams play a vital role in software engineering by promoting modularity, abstraction, and flexibility in system design. They help teams build robust, maintainable, and scalable systems that meet the evolving needs of users and stakeholders.",
+  "content1": "Let's consider a simple web application for managing tasks. This application allows users to create, view, update, and delete tasks, providing a basic yet functional interface for task management.",
+  "content2": "Creating a component diagram for a simple web application involves identifying the architectural components and their interactions within the system.",
+  "h1": "1. List down Architectural Components: ",
+  "li1": "Begin by identifying the key architectural components of the web application. Common components include; Client, Server, Database & External Services.",
+  "h2": "2. Define Interfaces and Dependencies:",
+  "li2": "Determine how the components interact with each other and define the interfaces and dependencies between them. For example, The Server component interacts with the Database component to perform data operations, such as storing and retrieving user information, task data, or configuration settings.",
+  "h3": "3. Draw the Component Diagram:",
+  "li3": "Represent each component as a labeled box or rectangle, and use connectors to indicate the relationships and dependencies between components. For example, Connect the Client component to the Server component with arrows labeled with HTTP or REST to represent client-server communication.",
+  "h4": "4. Specify Component Responsibilities:",
+  "li4": "Optionally, include labels or annotations to specify the responsibilities and functionality of each component. This helps stakeholders understand the purpose and role of each component within the system architecture.",
+  "tag": "/tutorials/ComponentSWA.png"
+}

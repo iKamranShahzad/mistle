@@ -1,0 +1,19 @@
+{
+  "title": "Deployment Diagram: Webapp Physical Deployment",
+  "link": "DeploymentWPD",
+  "diagram1": "A deployment diagram is a type of UML diagram that illustrates the physical deployment of software components and artifacts on hardware infrastructure. It shows how software components are deployed onto hardware nodes, such as servers, computers, or devices, and how they interact with each other in a distributed or networked environment.",
+  "diagram2": "Deployment diagrams play a vital role in software engineering by providing a visual representation of the deployment architecture, facilitating communication and collaboration, supporting infrastructure planning, and enabling risk mitigation and scalability planning.",
+  "content1": "Physical deployment of a web application involves the process of deploying the software components and resources of the application onto physical hardware infrastructure. This infrastructure typically includes servers, networking devices, storage systems, and other hardware resources needed to support the operation of the web application.",
+  "content2": "To create a sequence diagram for a messaging app illustrating the communication between various components, such as users, servers, and notifications, during the process of sending and receiving messages, following steps are followed:",
+  "h1": "1. Identify Components:",
+  "li1": "Begin by identifying the main components of the web application architecture. Common components include the Web Server, Application Server, Database Server, and any other infrastructure components or services used in the deployment.",
+  "h2": "2. Define Nodes:",
+  "li2": "Nodes represent the physical or virtual hardware environments where the software components are deployed. Determine the nodes where each component will be deployed, such as physical servers, virtual machines, containers, or cloud services.",
+  "h3": "3. Allocate Components to Nodes:",
+  "li3": "Determine which components will be deployed on each node based on the system architecture and deployment requirements. For example, the Web Server component may be deployed on dedicated web servers.",
+  "h4": "4. Draw Deployment Relationships:",
+  "li4": "Use arrows or lines to represent the deployment relationships between components and nodes. For each component, draw a line to the node where it is deployed to indicate its physical location. For example, draw a line from the Web Server component to the node representing the web server where it is deployed.",
+  "h5": "5. Specify Communication Paths:",
+  "li5": "If the components communicate with each other over a network, specify the communication paths between nodes. Use annotations or labels to describe the communication protocols, ports, and endpoints used for communication between components.",
+  "tag": "/tutorials/DeploymentWPD.png"
+}

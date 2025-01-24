@@ -1,0 +1,18 @@
+{
+  "title": "Flowchart Diagram: Simple Game Rules",
+  "link": "FlowChartSGR",
+  "diagram1": "A flowchart is a visual representation of a process or workflow, depicting the steps involved and the sequence in which they occur. It uses standardized symbols and shapes to represent different types of actions, decisions, inputs, outputs, and flow of control within the process. Flowcharts are widely used in various fields, including software development, business process management, project planning, and problem-solving, to communicate complex processes in a clear and structured manner.",
+  "diagram2": "Flowcharts can be simple or complex, depending on the complexity of the process being depicted. They serve as valuable tools for visualizing processes, identifying bottlenecks or inefficiencies, documenting procedures, designing algorithms, and communicating ideas or plans effectively across teams and stakeholders.",
+  "content2": "Creating game rules using a flowchart can be a fun and effective way to visualize the gameplay and decision-making process. The rules for a simple game using a flowchart can be outlined as follows:",
+  "h1": "1. Start Point:",
+  "li1": "Begin with an oval shape labeled Start Game.",
+  "h2": "2. Player Turn:",
+  "li2": "Use decision diamonds to represent each player's turn. Arrows branch to Player Action if it's the player's turn or Next Player if it's not.",
+  "h3": "3. Player Action:",
+  "li3": "Within each player's turn, outline the actions they can take using rectangles. Arrows point to the possible outcomes of each action.",
+  "h4": "4. Winning Condition:",
+  "li4": "Define the winning condition using a decision diamond. Arrows branch to Game Over if a player wins or Next Player if no player wins yet.",
+  "h5": "5. End Point:",
+  "li5": "Conclude the flowchart with an oval shape labeled Game Over or Winner Declared once a player wins the game.",
+  "tag": "/tutorials/FlowChartSGR.png"
+}
