@@ -46,9 +46,9 @@ const MyDiagrams = ({ diagrams, loading, openLink, getDiagrams }: any) => {
   return (
     <>
       {loading && diagrams.length === 0 ? (
-        <div className="flex items-center justify-center">
+        <span className="flex items-center justify-center">
           <PiSpinnerBold size="2em" className="text-main animate-spin" />
-        </div>
+        </span>
       ) : diagrams.length > 0 ? (
         <ul
           className="px-2 pb-32 h-screen flex flex-col items-center justify-start"
@@ -128,9 +128,9 @@ const MyDiagrams = ({ diagrams, loading, openLink, getDiagrams }: any) => {
           ))}
         </ul>
       ) : (
-        <div className="flex items-center justify-center italic">
+        <span className="flex items-center justify-center italic">
           No Saved Diagrams
-        </div>
+        </span>
       )}
     </>
   );

@@ -267,16 +267,16 @@ const HeaderAvatar = ({
                 {dialog === "account" && (
                   <AlertDialogContent>
                     <AlertDialogHeader>
-                      <AlertDialogDescription className="flex flex-col items-center justify-center">
+                      <div className="flex flex-col items-center justify-center text-sm text-neutral-400">
                         <Avatar className="size-24 mb-2">
                           <AvatarImage src="https://github.com/shadcn.png\" />
                           <AvatarFallback className="text-3xl">
                             {fallback}
                           </AvatarFallback>
                         </Avatar>
-                        <span className="text-2xl mb-6">
+                        <AlertDialogTitle className="text-2xl mb-6">
                           {localSession.user.name}
-                        </span>
+                        </AlertDialogTitle>
                         <div className="flex flex-col items-start justify-start">
                           <div className="flex items-center justify-start gap-2 mt-2 text-lg">
                             <span className="text-neutral-200">Email: </span>
@@ -299,7 +299,7 @@ const HeaderAvatar = ({
                             )}
                           </div>
                         </div>
-                      </AlertDialogDescription>
+                      </div>
                     </AlertDialogHeader>
                     <AlertDialogFooter>
                       <AlertDialogCancel>Close</AlertDialogCancel>
@@ -320,48 +320,48 @@ const HeaderAvatar = ({
                       <AlertDialogTitle className="text-xl pb-2 border-b border-main">
                         Account Settings
                       </AlertDialogTitle>
-                      <AlertDialogDescription>
-                        <div>
-                          <label className="text-base font-medium text-gray-300 mr-2">
-                            Name
-                          </label>
-                          <input
-                            type="text"
-                            placeholder="Minimum 3 characters"
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
-                            className="border mt-4 py-0.5 px-1 ml-[122.5px] mb-4 placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-                            required
-                          />
-                        </div>
-                        <div className="mb-4">
-                          <label className="text-base font-medium text-gray-300 mr-2">
-                            Password
-                          </label>
-                          <input
-                            type="password"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            placeholder="Minimum 5 characters"
-                            className="border py-0.5 px-1 ml-[93px] placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-                            required
-                          />
-                        </div>
-                        <div className="mb-4">
-                          <label className="text-base font-medium text-gray-300 mr-2">
-                            Confirm Password
-                          </label>
-                          <input
-                            type="password"
-                            value={confirmPassword}
-                            onChange={(e) => setConfirmPassword(e.target.value)}
-                            placeholder="Confirm Password"
-                            className="border py-0.5 px-1 ml-7 placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-                            required
-                          />
-                        </div>
-                      </AlertDialogDescription>
                     </AlertDialogHeader>
+                    <div className="space-y-4">
+                      <div className="flex items-center">
+                        <label className="text-base font-medium text-gray-300 w-32">
+                          Name
+                        </label>
+                        <input
+                          type="text"
+                          placeholder="Minimum 3 characters"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                          className="flex-1 border py-2 px-3 placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                          required
+                        />
+                      </div>
+                      <div className="flex items-center">
+                        <label className="text-base font-medium text-gray-300 w-32">
+                          Password
+                        </label>
+                        <input
+                          type="password"
+                          value={password}
+                          onChange={(e) => setPassword(e.target.value)}
+                          placeholder="Minimum 5 characters"
+                          className="flex-1 border py-2 px-3 placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                          required
+                        />
+                      </div>
+                      <div className="flex items-center">
+                        <label className="text-base font-medium text-gray-300 w-32">
+                          Confirm Password
+                        </label>
+                        <input
+                          type="password"
+                          value={confirmPassword}
+                          onChange={(e) => setConfirmPassword(e.target.value)}
+                          placeholder="Confirm Password"
+                          className="flex-1 border py-2 px-3 placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                          required
+                        />
+                      </div>
+                    </div>
                     <AlertDialogFooter>
                       <AlertDialogCancel onClick={() => handleClose()}>
                         Close

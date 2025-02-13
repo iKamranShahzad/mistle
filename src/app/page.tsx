@@ -7,10 +7,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { RiShareBoxLine } from "react-icons/ri";
-import Lottie from "lottie-react";
 import head from "./../../public/head.json";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { cards } from "@/app/data/cards";
+
+const Lottie = dynamic(() => import("lottie-react"), {
+  ssr: false,
+});
 
 export default function Home() {
   useEffect(() => {

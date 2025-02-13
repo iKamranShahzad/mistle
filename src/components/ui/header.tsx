@@ -155,21 +155,19 @@ const Header = () => {
               <DialogContent>
                 <DialogHeader>
                   <DialogTitle>Contact Us</DialogTitle>
-                  <DialogDescription>
-                    <div className="mb-6 mt-2">
-                      You can reach us out via our email address or join our
-                      Discord server for more information.
-                    </div>
-                    <div className="flex flex-column justify-between items-center">
-                      <Contacts />
-                      <img
-                        src="/logotext.svg"
-                        alt="logo"
-                        className="h-8 mr-3 mt-12 logoshadow"
-                      />
-                    </div>
-                  </DialogDescription>
                 </DialogHeader>
+                <DialogDescription>
+                  You can reach us out via our email address or join our Discord
+                  server for more information.
+                </DialogDescription>
+                <div className="flex flex-column justify-between items-center text-sm text-neutral-400">
+                  <Contacts />
+                  <img
+                    src="/logotext.svg"
+                    alt="logo"
+                    className="h-8 mr-3 mt-12 logoshadow"
+                  />
+                </div>
               </DialogContent>
             </Dialog>
           </li>
@@ -265,9 +263,10 @@ const Header = () => {
                         <AlertDialogTitle className="text-xl pb-2 border-b border-main">
                           Account Settings
                         </AlertDialogTitle>
-                        <AlertDialogDescription>
-                          <div>
-                            <label className="text-base font-medium text-gray-300 mr-2">
+
+                        <div className="w-full">
+                          <div className="flex flex-col sm:flex-row items-start sm:items-center mb-4">
+                            <label className="text-base font-medium text-gray-300 mb-2 sm:mb-0 sm:mr-2">
                               Name
                             </label>
                             <input
@@ -275,12 +274,12 @@ const Header = () => {
                               placeholder="Minimum 3 characters"
                               value={name}
                               onChange={(e) => setName(e.target.value)}
-                              className="border mt-4 py-0.5 px-1 ml-[122.5px] mb-4 placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                              className="w-full sm:w-auto border py-0.5 px-1 sm:ml-[122.5px] placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
                               required
                             />
                           </div>
-                          <div className="mb-4">
-                            <label className="text-base font-medium text-gray-300 mr-2">
+                          <div className="flex flex-col sm:flex-row items-start sm:items-center mb-4">
+                            <label className="text-base font-medium text-gray-300 mb-2 sm:mb-0 sm:mr-2">
                               Password
                             </label>
                             <input
@@ -288,12 +287,12 @@ const Header = () => {
                               value={password}
                               onChange={(e) => setPassword(e.target.value)}
                               placeholder="Minimum 5 characters"
-                              className="border py-0.5 px-1 ml-[93px] placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                              className="w-full sm:w-auto border py-0.5 px-1 sm:ml-[93px] placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
                               required
                             />
                           </div>
-                          <div className="mb-4">
-                            <label className="text-base font-medium text-gray-300 mr-2">
+                          <div className="flex flex-col sm:flex-row items-start sm:items-center mb-4">
+                            <label className="text-base font-medium text-gray-300 mb-2 sm:mb-0 sm:mr-2">
                               Confirm Password
                             </label>
                             <input
@@ -303,11 +302,11 @@ const Header = () => {
                                 setConfirmPassword(e.target.value)
                               }
                               placeholder="Confirm Password"
-                              className="border py-0.5 px-1 ml-7 placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                              className="w-full sm:w-auto border py-0.5 px-1 sm:ml-7 placeholder:text-neutral-600 bg-neutral-900 text-gray-300 border-neutral-700 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
                               required
                             />
                           </div>
-                        </AlertDialogDescription>
+                        </div>
                       </AlertDialogHeader>
                       <AlertDialogFooter>
                         <AlertDialogCancel onClick={() => handleClose()}>

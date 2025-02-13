@@ -8,7 +8,6 @@ import { BsArrowUpRight } from "react-icons/bs";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -139,9 +138,8 @@ fixed z-10 top-[20%] left-4 flex flex-col items-center justify-center gap-4 max-
           <DialogContent className="z-50 h-screen max-w-6xl">
             <DialogHeader>
               <DialogTitle>Templates</DialogTitle>
-              <DialogDescription className="border-t border-purple-400 pt-6">
-                <Templates />
-              </DialogDescription>
+
+              <Templates />
             </DialogHeader>
           </DialogContent>
         </Dialog>

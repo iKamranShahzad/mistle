@@ -23,7 +23,6 @@ import {
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -71,9 +70,7 @@ const Settings = ({
           <div className=" overflow-y-hidden">
             <DialogHeader>
               <DialogTitle>Shortcuts Guide</DialogTitle>
-              <DialogDescription className=" border-t border-purple-400 pt-4">
-                <HelpModal />
-              </DialogDescription>
+              <HelpModal />
             </DialogHeader>
           </div>
         </DialogContent>

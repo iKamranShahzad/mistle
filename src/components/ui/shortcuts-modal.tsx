@@ -37,7 +37,7 @@ const HelpModal = () => {
   );
 
   return (
-    <>
+    <div className=" border-t border-purple-400 pt-4">
       <input
         type="text"
         placeholder="Search shortcuts..."
@@ -45,7 +45,7 @@ const HelpModal = () => {
         onChange={(e) => setSearch(e.target.value)}
         className="w-full p-1.5 pl-2 mb-8 text-white bg-neutral-900 border border-neutral-700 rounded-lg focus:outline-none focus:border-neutral-600"
       />
-      <ul
+      <ol
         className="h-screen pb-32 md:pb-80"
         style={{ scrollbarWidth: "none", overflowY: "scroll" }}
       >
@@ -54,14 +54,14 @@ const HelpModal = () => {
             key={index}
             className="flex items-center justify-between px-1 mb-6 border-b border-white border-opacity-5 pb-2"
           >
-            <p className="py-0.5 text-white">{shortcut.name}</p>
+            <span className="py-0.5 text-white">{shortcut.name}</span>
             <span className="bg-neutral-800 text-neutral-300 py-1 px-1.5 rounded-md font-medium shadow-black shadow-md">
               {shortcut.shortcut}
             </span>
           </li>
         ))}
-      </ul>
-    </>
+      </ol>
+    </div>
   );
 };
 
